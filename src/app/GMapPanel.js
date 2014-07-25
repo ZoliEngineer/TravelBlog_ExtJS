@@ -34,6 +34,10 @@ Ext.define('Ext.ux.GMapPanel', {
               
     },
     
+    setCenter: function(center){
+    	this.gmap.setCenter(center);
+    },
+    
     createMap: function(center, marker) {
         var options = Ext.apply({}, this.mapOptions);
         
