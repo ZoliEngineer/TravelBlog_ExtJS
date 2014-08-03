@@ -1,6 +1,3 @@
-/**
- * @author Shea Frederick
- */
 Ext.define('Ext.ux.GMapPanel', {
     extend: 'Ext.panel.Panel',
     
